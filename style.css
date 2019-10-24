@@ -1,0 +1,143 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: sans-serif;
+	background: radial-gradient(#F0FFF0, #AFEEEE);
+}
+.container{
+	width: 80%
+	margin: auto;
+	overflow: hidden;
+}
+header{
+	background: linear-gradient(to right, #1E90FF, #48D1CC);
+	color: #fff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: 5px solid #1E90FF;
+	position: fixed;
+	width: 100%;
+}
+header #branding{
+	float: left;
+	font-size: 23px;
+}
+header #branding h1{
+	margin: auto 20px;
+	font-family: Century Gothic;
+}
+header nav{
+	float: right;
+	margin-top: 15px: 
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: Century Gothic;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+header #branding, header .active a{
+	color: #fff;
+	font-weight: bold;
+}
+header a:hover{
+	color: #960083;
+	font-weight: bold;
+}
+#showcase{
+	min-height: 500px;
+	background: url(img/71.jpg) no-repeat 0px -90px;
+	background-size: 100%;
+	text-align: center;
+	color: #4682B4;
+}
+#showcase h1{
+	background-color: #fff;
+	width: 100%;
+	height: 70px;
+	border-radius: 10px;
+	margin-top: 200px;
+	font-size: 60px;
+	font-family: Century Gothic;
+	margin-bottom: 10px;
+	text-shadow: 2px 2px 5px #4682B4;
+}
+.newsletter{
+	padding: 15px;
+	color: #fff;
+	background: linear-gradient(to right, #48D1CC, #1E90FF);	
+}
+.newsletter h1{
+	float: left;
+	font-family: Century Gothic;
+}
+.newsletter form{
+	float: right;
+	margin-top: 15px;
+}
+.newsletter input[type="email"]{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+	border-radius: 5px;
+}
+.buttonsubs{
+	height: 38px;
+	border-radius: 5px;
+	background-color: #ec1063;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #fff;
+}
+#boxes{
+	margin-top: 20px;
+}
+#boxes .box{
+	float: left;
+	text-align: center;
+	width: 32%;
+	padding: 10px;
+}
+#boxes .box img{
+	width: 300px;
+	border-radius: 10px;
+}
+#boxes .box img:hover{
+	box-shadow: 0px 0px 10px 5px #888888;
+}
+#boxes2{
+	margin-top: 20px;
+}
+#boxes2 .box{
+	float: left;
+	text-align: center;
+	font-family: Century Gothic;
+	width: 32%;
+	padding: 10px;
+}
+#boxes2 .box img{
+	width: 300px;
+	border-radius: 10px;
+}
+#boxes2 .box img:hover{
+	box-shadow: 0px 0px 10px 5px #888888;
+}
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #fff;
+	background: linear-gradient(to right, #1E90FF, #48D1CC);
+	text-align: center;
+}

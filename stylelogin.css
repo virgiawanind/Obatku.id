@@ -1,0 +1,122 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(img/61376.jpg);
+	background-size: cover;
+	background-position: 0px -150px;
+	background-attachment: fixed;
+	background-size: 68%;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	font-size: 16px;
+	color: #777;
+	font-weight:300;
+	font-family: sans-serif;
+}
+#login-box{
+	float: right;
+	position: relative;
+	margin: auto;
+	height: 722px;
+	width: 500px;
+	background: #E0FFFF;
+}
+.left-box{
+	position: fixed;
+	top: 0;
+	right: 0;
+	box-sizing: border-box;
+	padding: 40px;
+	width: 500px;
+	height: 722px;
+}
+h1{
+	position: fixed;
+	top: 0;
+	right: 100;
+	width: 500px;
+	margin-top: 40px;
+	margin-left: 40px;
+	font-weight: 300;
+	font-size: 28px;
+}
+input[type="text"]{
+	display: block;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	margin-top: 60px;
+	margin-left: 39px;
+	padding: 4px;
+	width: 220px;
+	height: 32px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #aaa;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	transition: 0.2% ease;
+}
+input[type="password"]{
+	display: block;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-left: 39px;
+	padding: 4px;
+	width: 220px;
+	height: 32px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #aaa;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	transition: 0.2% ease;
+}
+input[type="submit"]{
+	margin-bottom: 28px;
+	width: 350px;
+	height: 32px;
+	background: #1e90ff;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+	font-family:  sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	transition: 0,2px ease;
+	cursor: pointer;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus{
+	background: #00bfff;
+	transition: 0.2s ease;
+}
+.signupwith{
+	display: block;
+	margin-bottom: 40px;
+	font-size: 28px;
+	color: #000000;
+	text-align: center;
+}
+button.social{
+	margin-bottom: 20px;
+	margin-left: 80px;
+	width: 270px;
+	height: 36px;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: 500;
+	transition: 0.2s ease;
+	cursor: pointer;
+}
+.facebook{
+	background: #32508e;
+}
+.google{
+	background: #dd4b39;
+}

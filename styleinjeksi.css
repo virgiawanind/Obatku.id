@@ -1,0 +1,93 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: sans-serif;
+	background: radial-gradient(#F0FFF0, #AFEEEE);
+}
+.container{
+	width: 80%
+	margin: auto;
+	overflow: hidden;
+}
+header{
+	background: linear-gradient(to right, #1E90FF, #48D1CC);
+	color: #fff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: 5px solid #1E90FF;
+	width: 100%;
+	position: fixed;
+}
+header #branding{
+	float: left;
+	font-size: 23px;
+}
+header #branding h1{
+	margin: auto 20px;
+	font-family: Century Gothic;
+}
+header nav{
+	float: right;
+	margin-top: 15px: 
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: Century Gothic;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+header #branding, header .active a{
+	color: #fff;
+	font-weight: bold;
+}
+header a:hover{
+	color: #960083;
+	font-weight: bold;
+}
+#ktk{
+	margin-top: 0px
+}
+.ktk1{
+	background-color: #e0ffff;
+	width: 70%;
+	height: 1100px;
+	color: black;
+	margin: auto;
+	border-radius: 10px;
+}
+.ktk1:hover{
+	box-shadow: 0px 0px 10px 5px #888888;
+}
+.ktk1 h1{
+	text-align: center;
+	font-family: Century Gothic;
+	font-size: 40pt;
+	margin-top: 150px;
+}
+.ktk1 img{
+	margin-left: 210px;
+	border-radius: 30px;
+}
+.ktk1 p{
+	font-family: Century Gothic;
+	font-size: 16pt;
+	text-align: justify;
+}
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #fff;
+	background: linear-gradient(to right, #1E90FF, #48D1CC);
+	text-align: center;
+}
