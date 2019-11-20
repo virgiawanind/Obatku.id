@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login - talk.it</title>
+	<title>Login - Obatku.id</title>
 	<link rel="stylesheet" type="text/css" href="stylelogin.css">
 </head>
 <body>
@@ -9,15 +9,28 @@
 	<div class="left-box">
 		<h1>Login</h1>
 		<br>
-		<input type="text" name="Email" placeholder="Email" class="Email" required="Tolong Diisi">
+		<input type="text" id="mail" name="Email" placeholder="Email" class="Email" required="Tolong Diisi">
 		<br>
-		<input type="Password" name="Password" placeholder="Password" class="Password" required="Tolong Diisi">
+		<input type="Password" id="katasandi" name="Password" placeholder="Password" class="Password" required="Tolong Diisi">
 		<br>
-		<center><a href="home.html"><input type="submit" name="signup-button" value="Login"></a></center>
+		<center><a href="home.html"><input type="submit" name="signup-button" value="Masuk"></a></center>
 		<center><p>-----   OR   -----</p></center>
 		<span class="signupwith">Masuk Menggunakan<br/>Media Sosial</span>
 		<a href="https://m.facebook.com/login/?locale=id_ID"><button class="social facebook">Sign In with Facebook</button></a>
 		<a href="https://accounts.google.com"><button class="social google">Sign In with Google</button></a>
 	</div>
 </div>
+<script type="text/javascript">
+	function input(){
+		var email = document.getElementById("mail").value;
+		var password = document.getElementById("katasandi").value;
+	 	if (document.getElementById("mail").value>=100 && document.getElementById("katasandi").value>=100) {
+	 		window.alert('Max 10');
+	 	}
+	 	else {
+	 		window.alert('Harus ada isinya')
+	 	}
+	 }
+</script>
+</body>
 </html>
